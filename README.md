@@ -1,1 +1,4 @@
-# italki-notification
+# Italki-notification - idea
+As an avid language learner, one of the most frequently used platform by me is italki.com. However, lot of people book their language lessons in advance, which results in tutors' schedules being full, at some point many of them cancel their meetings and new spots come up. I came to the conclusion that refreshing the website regularly in search of available spots is time-consuming and can easily be delegated to the combination of python and selenium. Simple script opens the url leading to your favourite tutor, and based on the html/css structure of the website, locates element defining available spots in the current week - if it's detected, it asks a user if they want to book a lesson. If so, the scripts goes on to find and click login button, it could also enter their credentials to login. 
+# Remarks
+Script is adaptable, the only adjustment to the code is to put url to the page of the tutor you follow. The program could also by extented by extracting login credentials from a secured/encrypted file. 
